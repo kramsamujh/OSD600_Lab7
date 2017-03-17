@@ -1,0 +1,28 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "Learning Lab",
+  "main": "seneca.js",
+  "dependencies": {
+    "eslint": "^3.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint *.js",
+    "test": "npm run -s lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kramsamujh/OSD600_Lab7.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kramsamujh/OSD600_Lab7/issues"
+  },
+  "homepage": "https://github.com/kramsamujh/OSD600_Lab7#readme"
+}
