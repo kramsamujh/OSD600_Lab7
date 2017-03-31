@@ -43,7 +43,7 @@ app.get('/format/:name', function (req, res) {
 // GET http://localhost:3000/healthcheck
 app.get('/healthcheck', function (req, res) {
   res.json({
-    uptime: process.uptime();
+    uptime: process.uptime()
   });
 });
 
